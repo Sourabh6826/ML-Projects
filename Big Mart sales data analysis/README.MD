@@ -1,5 +1,5 @@
 ### Big Mart sales data analysis
-# source : https://www.kaggle.com/datasets/brijbhushannanda1979/bigmart-sales-data?select=Train.csv
+# Source : https://www.kaggle.com/datasets/brijbhushannanda1979/bigmart-sales-data?select=Train.csv
 
 # Problem statement: 
 A supermarket chain called Bigmart has several outlets or several stores around the world & they want us to predict the sales which they can expect.
