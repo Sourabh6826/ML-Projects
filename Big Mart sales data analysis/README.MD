@@ -1,8 +1,10 @@
 ### Big Mart sales data analysis
 # source : https://www.kaggle.com/datasets/brijbhushannanda1979/bigmart-sales-data?select=Train.csv
 
-# Problem statement : A supermarket chain called Bigmart has several outlets or several stores around the world & they want us to predict the sales which they can expect.
-# Steps taken : 1. Data cleaning: Replacing missing numerical value in Item_Weight column with mean value, replacing missing non mumerical value in Outlet_Size        column with mode.(Found 4 seperate mode based on Outlet_Type columns) 
+# Problem statement: 
+A supermarket chain called Bigmart has several outlets or several stores around the world & they want us to predict the sales which they can expect.
+# Steps taken: 
+1. Data cleaning: Replacing missing numerical value in Item_Weight column with mean value, replacing missing non mumerical value in Outlet_Size        column with mode.(Found 4 seperate mode based on Outlet_Type columns) 
 2. Data visualization: Graphical representaion of all columns, found issue in Item_Fat_Content columns, Low fat and regular data was entered with other names as LF and ref, corrected the error and standerdised the data.
 3. Label encoding: Converted non numerical columns to numerical data so that ML model can process it.
 4. Train test split: Spliting data into features and target and then spliting into training and testing data, which we will use to train our ML model and evaluate it.
